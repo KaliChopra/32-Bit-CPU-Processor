@@ -78,6 +78,10 @@ We divide the instruction execution cycle into five steps:
 •	Result may come from the ALU or memory system (viz. a LOAD instruction).
 •	The position of the destination register in the instruction word depends on the instruction already known after decoding has been done.
 
+
+[![Screenshot-2024-07-16-184417.png](https://i.postimg.cc/QN1qbsrY/Screenshot-2024-07-16-184417.png)](https://postimg.cc/s1fSjkx5)
+
+
 Input and Output
 •	The Instructions are given in the file Program.txt and the Data is given in the file Data.txt. As soon as we run the CPU_tb.v file the instructions and data are loaded into their respective segments of memory.
 •	The output is written in the file Memory_output.txt.
