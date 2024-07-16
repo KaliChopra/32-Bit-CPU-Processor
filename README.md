@@ -4,11 +4,11 @@ Skills: Verilog HDL, Computer Architecture
 •	I have made a 16-bit CPU using Verilog HDL.
 •	The verilog files along with testbench are attached in this repository.
 •	The block diagram of design is as follows:
-
-[![Screenshot-2024-07-16-181550.png](https://i.postimg.cc/G3KF7BGS/Screenshot-2024-07-16-181550.png)](https://postimg.cc/t71n74rh)
+[![Screenshot-2024-06-21-174950.png](https://i.postimg.cc/J7Qbtyh5/Screenshot-2024-06-21-174950.png)](https://postimg.cc/HjVJhkXr)
 
 **CPU Design**
- ![2](https://www.imghippo.com/i/PQjG61721133978.png)
+
+[![Screenshot-2024-07-16-181550.png](https://i.postimg.cc/G3KF7BGS/Screenshot-2024-07-16-181550.png)](https://postimg.cc/t71n74rh)
 **Implementation of MIPS32 architecture** 
 •	MIPS32 architecture includes the following types of registers: 
 o	MIPS32 has a set of 32 general-purpose registers.  Each register is of 32 bits.  
@@ -18,19 +18,19 @@ o	Register R0 always contains the constant value 0.
 Instruction Code
 There are 2 types of instruction codes:
 1.	R-Type (Register): The instruction bits are divided into 6 parts out of which we are not using 2 of them that is shift amount and opcode extension.
- ![3](https://www.imghippo.com/i/yf0UW1721134145.png)
+[![Screenshot-2024-06-21-183131.png](https://i.postimg.cc/3wSxPTrp/Screenshot-2024-06-21-183131.png)](https://postimg.cc/XZ5WCtC7)
 
 I.	1st 5 bits represent the opcode for the instruction:
 o	The opcodes description is as follows:
-![4](https://www.imghippo.com/i/JIQi71721134333.png)
+[![Screenshot-2024-06-21-190416.png](https://i.postimg.cc/ZKRVSPLd/Screenshot-2024-06-21-190416.png)](https://postimg.cc/ThzrjDFd)
  
 
 II.	The next 10 bits represent the Address of the memory that is needed in the instruction.
 2.	I-Type (Immediate): The instruction bits are divided into 6 parts.
-![5](https://www.imghippo.com/i/GGMHG1721134393.png) 
+[![Screenshot-2024-06-21-185704.png](https://i.postimg.cc/7hVHn8Rf/Screenshot-2024-06-21-185704.png)](https://postimg.cc/MfnJz4qS)
 III.	1st 5 bits represent the opcode for the instruction:
 o	The opcodes description is as follows:
-![6](https://www.imghippo.com/i/HyVj81721134454.png)
+[![Screenshot-2024-06-21-190520.png](https://i.postimg.cc/TP6TFPXp/Screenshot-2024-06-21-190520.png)](https://postimg.cc/qN1fC4qT)
  
 MIPS32 Instruction Cycle
 We divide the instruction execution cycle into five steps:
