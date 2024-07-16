@@ -1,15 +1,15 @@
 **32 Bit MIPS32 PROCESSOR**
 Skills: Verilog HDL, Computer Architecture
-•	I am Kali Chopra pursuing Electronics Engineering at IIT (BHU), Varanasi.S
+•	I am Kali Chopra pursuing Electronics Engineering at IIT (BHU), Varanasi.
 •	I have made a 16-bit CPU using Verilog HDL.
 •	The verilog files along with testbench are attached in this repository.
 •	The block diagram of design is as follows:
 
  ![1](https://www.imghippo.com/i/epLmA1721133767.png)
 
-CPU Design
+**CPU Design**
  ![2](https://www.imghippo.com/i/PQjG61721133978.png)
-Implementation of MIPS32 architecture 
+**Implementation of MIPS32 architecture** 
 •	MIPS32 architecture includes the following types of registers: 
 o	MIPS32 has a set of 32 general-purpose registers.  Each register is of 32 bits.  
 o	Register R0 always contains the constant value 0.
