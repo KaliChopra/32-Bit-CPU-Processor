@@ -5,7 +5,7 @@ Skills: Verilog HDL, Computer Architecture
 •	The verilog files along with testbench are attached in this repository.
 •	The block diagram of design is as follows:
 
- ![1](https://www.imghippo.com/i/epLmA1721133767.png)
+ ![1](https://i.postimg.cc/G3KF7BGS/Screenshot-2024-07-16-181550.png)
 
 **CPU Design**
  ![2](https://www.imghippo.com/i/PQjG61721133978.png)
