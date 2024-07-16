@@ -5,10 +5,10 @@ Skills: Verilog HDL, Computer Architecture
 •	The verilog files along with testbench are attached in this repository.
 •	The block diagram of design is as follows:
 
- [](https://www.imghippo.com/i/epLmA1721133767.png)
+ ![1](https://www.imghippo.com/i/epLmA1721133767.png)
 
 CPU Design
- [](https://www.imghippo.com/i/PQjG61721133978.png)
+ ![2](https://www.imghippo.com/i/PQjG61721133978.png)
 Implementation of MIPS32 architecture 
 •	MIPS32 architecture includes the following types of registers: 
 o	MIPS32 has a set of 32 general-purpose registers.  Each register is of 32 bits.  
@@ -18,19 +18,19 @@ o	Register R0 always contains the constant value 0.
 Instruction Code
 There are 2 types of instruction codes:
 1.	R-Type (Register): The instruction bits are divided into 6 parts out of which we are not using 2 of them that is shift amount and opcode extension.
- [](https://www.imghippo.com/i/yf0UW1721134145.png)
+ ![3](https://www.imghippo.com/i/yf0UW1721134145.png)
 
 I.	1st 5 bits represent the opcode for the instruction:
 o	The opcodes description is as follows:
-[](https://www.imghippo.com/i/JIQi71721134333.png)
+![4](https://www.imghippo.com/i/JIQi71721134333.png)
  
 
 II.	The next 10 bits represent the Address of the memory that is needed in the instruction.
 2.	I-Type (Immediate): The instruction bits are divided into 6 parts.
-[](https://www.imghippo.com/i/GGMHG1721134393.png) 
+![5](https://www.imghippo.com/i/GGMHG1721134393.png) 
 III.	1st 5 bits represent the opcode for the instruction:
 o	The opcodes description is as follows:
-[](https://www.imghippo.com/i/HyVj81721134454.png)
+![6](https://www.imghippo.com/i/HyVj81721134454.png)
  
 MIPS32 Instruction Cycle
 We divide the instruction execution cycle into five steps:
