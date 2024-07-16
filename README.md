@@ -21,7 +21,8 @@ o	MIPS32 has a set of 32 general-purpose registers.  Each register is of 32 bits
 o	Register R0 always contains the constant value 0.
 •	The PC is a special-purpose 32-bit register.
 •	MIPS32 does not have flag registers (such as zero, carry, sign flags)
-Instruction Code
+
+**Instruction Code**
 There are 2 types of instruction codes:
 1.	R-Type (Register): The instruction bits are divided into 6 parts out of which we are not using 2 of them that is shift amount and opcode extension.
 
@@ -50,7 +51,7 @@ o	The opcodes description is as follows:
 [![Screenshot-2024-06-21-190520.png](https://i.postimg.cc/TP6TFPXp/Screenshot-2024-06-21-190520.png)](https://postimg.cc/qN1fC4qT)
 
  
-MIPS32 Instruction Cycle
+**MIPS32 Instruction Cycle**
 We divide the instruction execution cycle into five steps:
 
 (a) IF: Instruction Fetch
@@ -82,7 +83,7 @@ We divide the instruction execution cycle into five steps:
 [![Screenshot-2024-07-16-184417.png](https://i.postimg.cc/QN1qbsrY/Screenshot-2024-07-16-184417.png)](https://postimg.cc/s1fSjkx5)
 
 
-Input and Output
+**Input and Output**
 •	The Instructions are given in the file Program.txt and the Data is given in the file Data.txt. As soon as we run the CPU_tb.v file the instructions and data are loaded into their respective segments of memory.
 •	The output is written in the file Memory_output.txt.
 
