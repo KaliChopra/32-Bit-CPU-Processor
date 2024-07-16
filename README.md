@@ -84,8 +84,8 @@ We divide the instruction execution cycle into five steps:
 
 
 **Input and Output**
-- •	The Instructions are given in the file Program.txt and the Data is given in the file Data.txt. As soon as we run the CPU_tb.v file the instructions and data are loaded into their respective segments of memory.
-- •	The output is written in the file Memory_output.txt.
+- 	The Instructions are given in the file Program.txt and the Data is given in the file Data.txt. As soon as we run the CPU_tb.v file the instructions and data are loaded into their respective segments of memory.
+- 	The output is written in the file Memory_output.txt.
 
 
 
