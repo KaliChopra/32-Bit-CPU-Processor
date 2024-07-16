@@ -38,7 +38,11 @@ o	The opcodes description is as follows:
 
 II.	The next 10 bits represent the Address of the memory that is needed in the instruction.
 2.	I-Type (Immediate): The instruction bits are divided into 6 parts.
+
+
 [![Screenshot-2024-06-21-185704.png](https://i.postimg.cc/7hVHn8Rf/Screenshot-2024-06-21-185704.png)](https://postimg.cc/MfnJz4qS)
+
+
 III.	1st 5 bits represent the opcode for the instruction:
 o	The opcodes description is as follows:
 
